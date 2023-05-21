@@ -1,0 +1,19 @@
+{
+    "name": "kafkaproducer",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./src/main.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "kafkajs": "^2.2.4",
+        "node-fetch": "^2.6.7",
+        "nodemon": "^2.0.20"
+    }
+}
